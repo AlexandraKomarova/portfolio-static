@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gruppo&display=swap');
+
+body {
+  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+  background-size: 22px 22px;
+}
+
+.wrapper {
+  height: 80vh;
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+h1 {
+  font-family: 'Gruppo', cursive;
+  justify-self: center;
+  align-self: center;
+  color: #a799cc; 
+}

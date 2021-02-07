@@ -12,9 +12,18 @@
     <div class="full">FULL</div>
     <div class="stack">STACK</div>
     <div class="right">
-      <a href="work.html"><button class="custom-btn btn-2 work">WORK</button></a>
-      <button class="custom-btn btn-2 resume">RESUME</button>
+      <a href="work.html"><button class="custom-btn btn-2 work myButton">WORK</button></a>
+      <button class="custom-btn btn-2 resume myButton">RESUME</button>
     </div>
   </div>
+  <script>
+    let myButton = document.getElementsByClassName("myButton")[0]
+    myButton.addEventListener("touchstart", function() {
+      myButton.classList.add("myButtonHover")
+    })
+    myButton.addEventListener("touchstart", function() {
+      myButton.classList.remove("touchend")
+    })
+  </script>
 </body>
 </html>
